@@ -1,6 +1,6 @@
 
-#Questions
-##Tutorial-1
+# Questions
+## Tutorial-1
 1.	 Write a python program to input a time in seconds and print the time in
  HH:MM:SS format.
 2.	Program to find Area and Circumference of a Circle.
@@ -37,7 +37,7 @@ Eg: 1634=1**4+6**4+3**4+4**4=1634
 27.	Write a Python program to find the roots of a quadratic equation, ax2+ bx + c =0 .
 28.	Write a Python program to display the sum of odd numbers between a programmer-specified upper and lower limit.
 
-##Tutorial-2
+## Tutorial-2
 1. Write a program to remove all vowel characters from a string.
 2. Write a program to remove characters at odd index positions from a string.
 3. Write a python script for palindrome checking without reversing the string.
