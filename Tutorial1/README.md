@@ -1,5 +1,5 @@
-#Questions
-##Tutorial-1
+# Questions
+## Tutorial-1
 1.	 Write a python program to input a time in seconds and print the time in
  HH:MM:SS format.
 2.	Program to find Area and Circumference of a Circle.
