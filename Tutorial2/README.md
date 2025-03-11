@@ -1,5 +1,5 @@
-##Questions
-#Tutorial-2
+#Questions
+##Tutorial-2
 1. Write a program to remove all vowel characters from a string.
 2. Write a program to remove characters at odd index positions from a string.
 3. Write a python script for palindrome checking without reversing the string.
