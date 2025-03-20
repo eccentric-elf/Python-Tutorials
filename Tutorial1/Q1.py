@@ -1,9 +1,9 @@
-def stoh(seconds):
-    hours=seconds//3600
-    minutes=(seconds%3600)//60
-    seconds=seconds%60
-    return f"{hours:02}:{minutes:02}:{seconds:02}"
+def soln(secs):
+    hrs=secs//3600
+    mins=(secs%3600)//60
+    secs=secs%60
+    return f"Formatted Time= {hrs:02}:{mins:02}:{secs:02}"
 
-seconds=int(input("Enter the time in seconds: "))
-actual_time=stoh(seconds)
-print("Time in HH:MM:SS format",actual_time)
+secs=int(input("Enter the time in seconds: "))
+formatted_time=soln(secs)
+print(formatted_time)

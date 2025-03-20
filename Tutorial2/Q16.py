@@ -1,8 +1,3 @@
-""" Write a menu driven program to implement the following
- i)check even or odd
- ii)check number is positive negative or zero
- iii) generate factors of a number"""
-
 def check_even_odd(num):
     if num % 2 == 0:
         print(f"{num} is Even")

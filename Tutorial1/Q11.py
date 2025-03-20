@@ -6,9 +6,9 @@ def sum_of_even_cubes(n):
 
     return total
 
-n = int(input("Enter a positive integer: "))
-
-if n <= 0:
-    print("Please enter a positive integer.")
+n = int(input("Enter a +ve integer: "))
+while n <= 0:
+    print("Number Invalid. Try again: ")
+    n = int(input())
 else:
     print(f"Sum of cubes of even numbers up to {n}: {sum_of_even_cubes(n)}")

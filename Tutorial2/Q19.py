@@ -1,4 +1,3 @@
-"""Write a Python program to print n’th Fibonacci number using recursion."""
 def fibonacci(n):
     if n <= 0:
         return "Invalid input. Please enter a positive integer."
@@ -9,6 +8,5 @@ def fibonacci(n):
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-# Example usage
 n = int(input("Enter the position (n) to find the Fibonacci number: "))
 print(f"The {n}th Fibonacci number is: {fibonacci(n)}")

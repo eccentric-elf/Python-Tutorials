@@ -1,10 +1,13 @@
-#Write a Program to replace all occurrence of a substring with a new substring.
 
+def replace_substring(original_str, old_substring, new_substring):
+    if old_substring in original_str:
+        return original_str.replace(old_substring, new_substring)
+    return original_str
 
-s= input("Enter the string")
-sub= input("Enter the substring ")
-sub2= input("Enter the new substring ")
+text = input("Enter the string: ")
+substring_to_replace = input("Enter the substring to replace: ")
+replacement_substring = input("Enter the new substring: ")
 
-if sub in s:
-    s = s.replace(sub,sub2)
-    print(s)
+updated_text = replace_substring(text, substring_to_replace, replacement_substring)
+
+print(updated_text)

@@ -1,11 +1,11 @@
 def prime_factors(n):
-    factor = 2
+    fact = 2
     while n > 1:
-        if n % factor == 0:
-            print(factor, end=" ")
-            n //= factor
+        if n % fact == 0:
+            print(fact, end=" ")
+            n //= fact
         else:
-            factor += 1
+            fact += 1
 
 num = int(input("Enter a number: "))
 print("Prime factors:", end=" ")

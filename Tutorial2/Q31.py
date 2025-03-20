@@ -1,5 +1,3 @@
-""" Program to completely remove duplicate elements without keeping any copy"""
-
 from collections import Counter
 
 def remove_all_duplicates(lst):

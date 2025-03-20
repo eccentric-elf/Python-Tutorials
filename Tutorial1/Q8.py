@@ -1,4 +1,4 @@
-def sum_of_digits(n):
+def SODs(n):
     n = abs(n)
     total = 0
 
@@ -10,5 +10,4 @@ def sum_of_digits(n):
     return total
 
 num = int(input("Enter a number: "))
-
-print(f"Sum of digits: {sum_of_digits(num)}")
+print(f"Sum of digits: {SODs(num)}")

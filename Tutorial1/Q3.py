@@ -1,10 +1,11 @@
-def OoE(num):
+def oddevn(num):
     if num==0:
-        print(f"{num} is zero.")
+        return("It's zero.")
     elif num%2==0:
-        print(f"{num} is even.")
+        return("It's even.")
     else:
-          print(f"{num} is odd.")
+         return("It's odd.")
 
 num=int(input("Enter the number: "))
-check=OoE(num)
+check=oddevn(num)
+print(check)

@@ -1,13 +1,11 @@
-def Compare(n1,n2):
-    if n1>n2:
-        print(f"{n1} is the largest")
-        print(f"{n2} is the smallest")
-    elif n1==n2:
-        print(f"{n1} & {n2} are equal")
+def cmpr(num1,num2):
+    if num1>num2:
+        print(f"{num1} is the largest\n{num2} is the smallest")
+    elif num1==num2:
+        print(f"{num1} & {num2} are equal")
     else:
-        print(f"{n2} is the largest")
-        print(f"{n1} is the smallest")
+        print(f"{num2} is the largest\n{num1} is the smallest")
 
-n1=int(input("Enter the n1: "))
-n2=int(input("Enter the n2: "))
-Compare(n1,n2)
+num1=int(input("Enter the first and second num: "))
+num2=int(input())
+cmpr(num1,num2)

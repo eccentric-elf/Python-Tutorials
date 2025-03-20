@@ -11,12 +11,9 @@ def find_quadrant(x, y):
         return "Origin (0,0)"
     elif x == 0:
         return "Y-axis"
-    else:  # y == 0
+    else:  
         return "X-axis"
-
-# Input from user
+    
 x = float(input("Enter the x-coordinate: "))
 y = float(input("Enter the y-coordinate: "))
-
-# Output the quadrant
 print(find_quadrant(x, y))

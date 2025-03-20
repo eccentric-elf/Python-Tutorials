@@ -1,5 +1,9 @@
-def remove_vowels(s):
-    return "".join(char for char in s if char.lower() not in "aeiou")
+def eliminate_vowels(text):
+    consonants_only = []
+    for letter in text:
+        if letter.lower() not in "aeiou":
+            consonants_only.append(letter)
+    return "".join(consonants_only)
 
-input_string = "Hello, World!"
-print("String after removing vowels:", remove_vowels(input_string))
+sample_text = "Hello, World!"
+print("Text after vowel removal:", eliminate_vowels(sample_text))

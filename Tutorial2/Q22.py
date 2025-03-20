@@ -1,5 +1,3 @@
-""" Program to read a string and remove the given words from the string"""
-
 def remove_words(text, words_to_remove):
     words = text.split()  
     filtered_words = [word for word in words if word not in words_to_remove]

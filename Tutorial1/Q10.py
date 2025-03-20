@@ -1,13 +1,13 @@
-def sum_of_evens(n):
+def evnsum(num):
     total = 0  
     
-    for i in range(n):
-        num = int(input(f"Enter number {i+1}: "))  
-        if num % 2 == 0: 
-            total += num  
+    for i in range(num):
+        n = int(input(f"Enter number {i+1}: "))  
+        if n % 2 == 0: 
+            total += n  
     
     return total 
 
-N = int(input("Enter how many numbers: "))
+num = int(input("Enter how many numbers as the value of N: "))
 
-print(f"Sum of even numbers: {sum_of_evens(N)}")
+print(f"Sum of even numbers: {evnsum(num)}")

@@ -1,8 +1,15 @@
-#Write a program to remove all occurrence of a substring from a string
+def remove_substring(main_str, substring):
+    if substring in main_str:
+        updated_str = main_str.replace(substring, "")
+        return updated_str
+    return main_str
 
-s= input("Enter the string")
-sub= input("Enter the substring ")
+user_string = input("Enter the string: ")
+substring_to_remove = input("Enter the substring: ")
 
-if sub in s:
-    s = s.replace(sub, "")
-    print(s)
+result_string = remove_substring(user_string, substring_to_remove)
+
+if result_string != user_string:
+    print("Updated string:", result_string)
+else:
+    print("Substring not found in the string.")

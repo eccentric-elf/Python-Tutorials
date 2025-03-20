@@ -1,22 +1,17 @@
-"""Write Python script for converting decimal number into Binary number."""
-
-
-
-
-def decimal_to_binary(n):
-    binary = ""
+def convert_to_binary(decimal_num):
+    binary_str = ""
     
-    if n == 0:
+    if decimal_num == 0:
         return "0"
     
-    while n > 0:
-        binary = str(n % 2) + binary  
-        n = n // 2 
-        print(binary)
+    while decimal_num > 0:
+        binary_str = str(decimal_num % 2) + binary_str  
+        decimal_num = decimal_num // 2
+        print(binary_str)
     
-    return binary
+    return binary_str
 
 
-decimal = int(input("Enter a decimal number: "))
+number = int(input("Enter a decimal number: "))
 
-print(f"Binary representation: {decimal_to_binary(decimal)}")
+print(f"Binary representation: {convert_to_binary(number)}")
